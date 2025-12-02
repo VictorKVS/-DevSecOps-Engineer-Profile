@@ -39,6 +39,15 @@
 ---
 
 ## 📁 Структура репозитория
+
+Ниже приведена полный навигационный обзор проекта.  
+Все разделы структурированы по алфавиту и функциональным блокам.
+
+---
+
+<details open>
+<summary><b>🏛 Корень репозитория</b></summary>
+
 ```
 DevSecOps-Engineer-Profile/
 │
@@ -59,8 +68,159 @@ DevSecOps-Engineer-Profile/
 │
 └── DOS/ # Документы, книги, материалы
 ```
+
+</details>
+
 ---
 
+<details>
+<summary><b>⚙ SKILLS — Карта навыков</b></summary>
+```
+SKILLS/
+│
+├── AI_AUTOMATION_SKILLS.md
+├── DEVSECOPS_SKILLS.md
+├── INFRASTRUCTURE_SKILLS.md
+├── SECURITY_SKILLS.md
+└── SKILL_MATRIX.md
+```
+
+
+</details>
+
+---
+
+<details>
+<summary><b>🧩 ROLES — Роли человека и LLM-агентов</b></summary>
+```
+ROLES/
+│
+├── A_HUMAN/
+│ ├── ROLE_AI_AUTOMATION_ENGINEER_HUMAN.md
+│ ├── ROLE_DEVSECOPS_ENGINEER_HUMAN.md
+│ └── ROLE_SECURITY_ANALYST_HUMAN.md
+│
+├── B_AGENTS/
+│ ├── ROLE_AGENT_BUILDER_CI.md
+│ ├── ROLE_AGENT_CODE_SYNTHESIZER.md
+│ ├── ROLE_AGENT_DECISION_ENGINE.md
+│ ├── ROLE_AGENT_DEPLOYER.md
+│ ├── ROLE_AGENT_DOC_PARSER.md
+│ ├── ROLE_AGENT_KNOWLEDGE_MANAGER.md
+│ ├── ROLE_AGENT_POLICY_ENGINE.md
+│ ├── ROLE_AGENT_SCHEME_GENERATOR.md
+│ ├── ROLE_AGENT_SECURITY_SCANNER.md
+│ └── ROLE_AGENT_TEST_GENERATOR.md
+│
+└── C_GOVERNANCE/
+├── ROLE_GOVERNANCE_CONTROLLER.md
+├── ROLE_POLICY_OWNER.md
+└── ROLE_RELEASE_OWNER.md
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>📦 PORTFOLIO — Практические инженерные проекты</b></summary>
+```
+  PORTFOLIO/
+│
+├── 01_Infrastructure/
+├── 02_CICD/
+├── 03_Security_Automation/
+├── 04_Monitoring/
+├── 05_Compliance/
+└── 06_AI_Automation/
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>🧪 PROJECTS — Примеры и демо</b></summary>
+```
+  PROJECTS/
+│
+├── CICD-Pipeline-Example/
+├── DevSecOps-Demo/
+├── Doc-Processor/
+├── Monitoring-Stack/
+├── RAG-Assistant/
+└── Security-Pipeline/
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>🤖 AUTOMATION — Агентные технологии и автогенерация</b></summary>
+
+```
+AUTOMATION/
+│
+├── AGENT_SCRIPTS/
+├── AUTOGEN_PIPELINES.md
+├── CI_AUTOGEN/
+├── DSL/
+├── KNOWLEDGE_BASE/
+└── PROMPTS/
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>🏗 META — Архитектура, зрелость, управление</b></summary>
+```
+META/
+│
+├── ARCHITECTURE/
+│ ├── AGENT_DEVSECOPS_FULL_ARCHITECTURE.md
+│ ├── MATURITY_MODEL.md
+│ └── SYSTEM_ARCHITECTURE_OVERVIEW.md
+│
+├── GOVERNANCE/
+│ ├── DECISION_GOVERNANCE.md
+│ └── POLICY_FRAMEWORK.md
+│
+└── ROADMAP/
+├── AUTOMATION_ROADMAP.md
+├── PORTFOLIO_PLAN.md
+└── SKILL_DEVELOPMENT_PLAN.md
+```
+
+</details>
+
+---
+
+<details>
+<summary><b>📚 DOS — Документы, исследования и материалы</b></summary>
+```
+DOS/
+│
+├── Books/
+├── Documents/
+├── Lessons/
+├── Normatives/
+├── Research/
+├── Standards/
+└── Videos/
+ ```
+
+</details>
+
+---
+
+✨ *Структура отображается красиво, компактно и удобно для навигации.  
+Готово к использованию в GitHub и для дальнейшего развития репозитория.*
+
+
+  
 ## 🧩 Роли и автоматизация
 
 Репозиторий использует гибридную модель инженерии:
